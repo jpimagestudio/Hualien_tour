@@ -1,134 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="21036" appversion="7.1.12" start="node1" hassounds="0">
+<tour appversion="7.1.12" start="node1" hassounds="1" apprev="21036">
   <panorama id="node1">
-    <input height="1536" overlap="1" width="2816" leveltilesize="510" cylinder="1" levelingpitch="0" flat="1" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingroll="0">
-      <level height="1536" preload="0" predecode="0" width="2816"/>
-      <level height="768" preload="0" predecode="0" width="1408"/>
-      <level height="384" preload="0" predecode="0" width="704"/>
-      <level height="192" preload="1" predecode="1" width="352"/>
+    <input cylinder="1" leveltilesize="510" flat="1" width="2816" overlap="1" levelingroll="0" height="1536" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
+      <level height="1536" predecode="0" preload="0" width="2816"/>
+      <level height="768" predecode="0" preload="0" width="1408"/>
+      <level height="384" predecode="0" preload="0" width="704"/>
+      <level height="192" predecode="1" preload="1" width="352"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="800" tilt="0" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fov="140" scaletofit="0" tilt="90" fovstereographic="330" fovfisheye="360" pan="360"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" pan="0" fov="800"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" scaletofit="0" fovstereographic="330" tilt="90" pan="360" fov="140"/>
     </view>
-    <userdata heading="0" description="" latitude="" source="" customnodeid="" copyright="" nodeid="node1" datetime="" author="" title="回花蓮縣境圖" info="" tags="" comment="" longitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderalpha="1" border="1" width="180" textalpha="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" borderradius="2" wordwrap="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="2" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <polyhotspot description="" id="Poly02" title="" target="_blank" url="">
+    <userdata author="" latitude="" tags="" copyright="" info="" title="回花蓮縣境圖" longitude="" comment="" nodeid="node1" heading="0" description="" datetime="" customnodeid="" source=""/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label backgroundalpha="1" wordwrap="1" border="1" bordercolor="0x000000" width="180" borderalpha="1" background="1" textcolor="0x000000" borderradius="2" height="20" backgroundcolor="0xffffff" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="2" handcursor="1"/>
+      <polyhotspot url="" description="" id="Poly02" target="_blank" title="">
         <polystring>-19.58/22.17</polystring>
       </polyhotspot>
-      <polyhotspot description="花蓮市景點" id="Poly01" title="花蓮市景點" target="" url="{node2}">
+      <polyhotspot url="{node2}" description="花蓮市景點" id="Poly01" target="" title="花蓮市景點">
         <polystring>-19.66/22.4|-21.65/23.81|-23.41/24.51|-24.7/25.27|-25.58/26.97|-27.04/28.09|-28.04/29.02|-27.57/30.31|-26.87/31.13|-25.46/31.43|-24.23/31.48|-22.65/31.54|-21.24/31.19|-19.01/32.13|-17.88/36.48|-17.1/39.21|-14.11/42.33|-11.64/42.33|-9.3/40.9|-3.45/41.16|-0.62/43.61|0.61/44.38|1.96/44.55|2.62/44.02|3.57/44.02|4.56/42.91|4.62/41.86|5.85/40.8|7.08/40.64|7.6/39.69|7.43/38.93|6.56/38.43|7.08/37.39|8.77/36.35|8.25/34.79|5.78/34.66|3.72/33.77|3.54/32.36|4.95/31.6|5.18/30.72|2.4/30.23|1.36/29.84|1.23/26.72|0.56/25.51|-0.97/25.16|-3.31/25.21|-8.88/25.16|-12.42/25.42|-14.15/24.04|-16.79/23.81</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly03" title="吉安鄉景點" target="" url="{node7}">
+      <polyhotspot url="{node7}" description="" id="Poly03" target="" title="吉安鄉景點">
         <polystring>8.75/35.19|10.86/35.19|12.91/34.19|14.43/32.96|14.96/31.79|15.08/29.62|14.49/28.68|13.32/28.39|11.97/28.45|10.74/28.27|9.86/27.57|9.8/26.75|10.1/25.75|11.09/24.99|12.09/24.46|13.2/24.11|14.2/23.35|14.78/22.41|15.25/20.95|15.6/19.48|15.31/17.61|14.78/17.37|12.44/17.43|10.68/17.14|10.33/16.79|10.27/15.97|11.21/16.03|11.62/15.38|12.5/15.5|12.73/14.86|13.32/14.8|13.61/13.98|13.9/13.51|13.73/13.04|11.74/12.92|11.62/12.39|8.16/12.39|8.28/11.93|11.15/11.11|11.97/10.58|12.62/9.87|12.91/8.88|12.67/7.88|11.85/7.06|11.21/6.83|-2.27/6.77|-3.09/7|-3.67/7.59|-4.14/8.29|-4.2/9.11|-3.79/10.11|-3.38/10.46|-4.73/9|-6.72/8.88|-8.36/8.88|-10.12/9.17|-11.06/9.58|-10.65/10.23|-9.24/11.28|-9.24/12.45|-10.06/13.45|-11/13.8|-11.47/15.21|-12.93/16.2|-13.87/16.55|-15.16/16.03|-16.15/16.67|-16.97/16.79|-17.5/18.78|-19.08/21.42|-19.79/22.36|-16.86/23.82|-14.34/24|-12.35/25.4|-4.49/25.23|-1.27/25.11|0.6/25.58|1.25/26.81|1.42/29.86|3.12/30.5|5/30.56|4.82/31.79|3.65/32.37|3.83/33.84|5.7/34.54|7.81/34.78</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly04" title="壽豐鄉景點" target="" url="{node6}">
+      <polyhotspot url="{node6}" description="" id="Poly04" target="" title="壽豐鄉景點">
         <polystring>-24.74/25.14|-27.67/24.2|-30.95/23.21|-33.77/22.85|-33.94/21.97|-34.29/21.1|-35.06/20.63|-36.75/20.45|-39.57/20.57|-39.86/19.98|-38.34/19.57|-36.93/19.28|-35.35/18.64|-34.35/17.99|-33.59/16.29|-34.12/15.12|-34.29/13.83|-33.53/12.66|-32.59/11.72|-32.59/10.02|-32.48/8.67|-31.72/7.8|-30.84/7.56|-29.08/6.97|-29.78/6.45|-30.6/5.22|-30.43/4.28|-30.19/3.46|-29.37/3.11|-27.91/2.76|-9.92/2.76|-9.27/3.46|-8.57/4.63|-8.75/5.86|-9.63/6.8|-10.97/7.15|-11.62/7.03|-10.45/7.8|-10.39/8.5|-10.8/9.08|-11.38/9.67|-10.68/10.31|-9.63/10.9|-9.16/11.66|-9.39/12.6|-10.04/13.13|-10.97/13.54|-11.15/14.42|-11.97/15.24|-13.2/16.06|-13.96/16.23|-15.19/15.94|-15.9/16.17|-16.66/16.64|-17.13/16.99|-17.83/19.4|-19.7/22.09|-20.64/23.09|-22.81/24.44</polystring>
       </polyhotspot>
     </hotspots>
-    <media/>
-    <transition blendcolor="0x000000" zoomout="0" delay="none" zoomafteroutfov="40" type="crossdissolve" zoomin="0" zoomafterinfov="140" enabled="1" zoomfov="40" zoomspeed="2" zoomoutpause="1" blendtime="1" softedge="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" lockedwheel="0" sensitivity="8" lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" contextfullscreen="1" hideabout="0" lockedmouse="0" invertwheel="0" contextvr="1"/>
+    <media>
+      <sound tiltsize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" id="_background" loop="0" startmutedmobile="0" level="0.900" nodechangekeep="1" pan="-1.000" pansize="10.000" mode="0">
+        <source url="media/Coastal Wave Sanctuary.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" zoomafteroutfov="40" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomfov="40" softedge="0" zoomafterinfov="140" zoomspeed="2" enabled="1" delay="none"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" contextprojections="0" invertcontrol="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node2">
-    <input height="3136" overlap="1" width="5440" leveltilesize="510" cylinder="1" levelingpitch="0" flat="1" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingroll="0">
-      <level height="3136" preload="0" predecode="0" width="5440"/>
-      <level height="1568" preload="0" predecode="0" width="2720"/>
-      <level height="784" preload="0" predecode="0" width="1360"/>
-      <level height="392" preload="0" predecode="0" width="680"/>
-      <level height="196" preload="1" predecode="1" width="340"/>
+    <input cylinder="1" leveltilesize="510" flat="1" width="5440" overlap="1" levelingroll="0" height="3136" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
+      <level height="3136" predecode="0" preload="0" width="5440"/>
+      <level height="1568" predecode="0" preload="0" width="2720"/>
+      <level height="784" predecode="0" preload="0" width="1360"/>
+      <level height="392" predecode="0" preload="0" width="680"/>
+      <level height="196" predecode="1" preload="1" width="340"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="800" tilt="0" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fov="140" scaletofit="0" tilt="90" fovstereographic="330" fovfisheye="360" pan="360"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" pan="0" fov="800"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" scaletofit="0" fovstereographic="330" tilt="90" pan="360" fov="140"/>
     </view>
-    <userdata heading="0" description="" latitude="" source="" customnodeid="" copyright="" nodeid="node2" datetime="" author="" title="" info="" tags="" comment="" longitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderalpha="1" border="1" width="180" textalpha="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" borderradius="2" wordwrap="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="2" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <polyhotspot description="" id="Poly02" title="" target="_blank" url="https://jpimagestudio.github.io/Hualien-Pine-Garden/">
+    <userdata author="" latitude="" tags="" copyright="" info="" title="" longitude="" comment="" nodeid="node2" heading="0" description="" datetime="" customnodeid="" source=""/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label backgroundalpha="1" wordwrap="1" border="1" bordercolor="0x000000" width="180" borderalpha="1" background="1" textcolor="0x000000" borderradius="2" height="20" backgroundcolor="0xffffff" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="2" handcursor="1"/>
+      <polyhotspot url="https://jpimagestudio.github.io/Hualien-Pine-Garden/" description="" id="Poly02" target="_blank" title="">
         <polystring>-5.86/-2.66|-5.95/-2.16|-6.57/-2.07|-6.88/-1.55|-5.34/-1.09|-5.16/-0.69|-5.71/0.08|-5.31/0.36|-5.59/0.97|-5.71/2.2|-6.08/3.46|-7.4/5.4|-8.81/3.43|-9.4/1|-9.98/1.93|-9.98/2.48|-10.44/4.05|-11.52/5.86|-12.75/4.02|-13.27/2.51|-13.55/1.4|-13.73/2.32|-14.04/3.65|-14.38/4.94|-15.76/6.94|-16.74/5.8|-17.21/6.84|-18.8/7.98|-22.86/7.95|-23.54/8.44|-24.09/8.07|-26.4/7.98|-27.93/7.95|-27.93/7.64|-29.72/5.71|-31.28/6.91|-32.76/4.94|-32.48/4.66|-33.71/2.94|-33.37/2.79|-34.17/1.4|-33.74/1.13|-34.42/0.42|-33.74/0.2|-34.54/-0.66|-33.56/-1|-33.99/-1.33|-33.93/-1.95|-33.25/-2.22|-31.65/-2.41|-30.27/-2.26|-29.07/-2.5|-27.75/-2.53|-27.13/-2.59|-27.9/-2.93|-28.52/-3.49|-28.79/-4.5|-28.58/-5.64|-28.03/-6.31|-27.38/-6.68|-18.07/-6.65|-17.14/-6.28|-16.44/-5.58|-16.22/-4.99|-16.22/-4.16|-16.38/-3.42|-17.02/-3.12</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly03" title="" target="_blank" url="https://jpimagestudio.github.io/Jiang_Jun_Fu/">
+      <polyhotspot url="https://jpimagestudio.github.io/Jiang_Jun_Fu/" description="" id="Poly03" target="_blank" title="">
         <polystring>24.41/-11.78|24.35/-12.39|23.49/-12.82|22.74/-13.02|21.14/-13.56|21.45/-13.85|22.43/-14.11|23/-14.57|23.38/-15.28|23.4/-16.26|23.12/-17.18|22.46/-17.75|21.91/-17.98|21.31/-18.04|5.04/-18.04|4.43/-17.95|3.95/-17.72|3.46/-17.32|3.17/-16.83|3/-16.15|3.06/-15.54|3.29/-14.97|3.57/-14.42|3.92/-14.14|4.55/-13.88|3.83/-13.68|2.88/-13.48|2.2/-13.28|1.45/-13.05|0.5/-12.96|-0.1/-12.7|-0.85/-12.33|-1.02/-11.93|-0.79/-11.52|-0.27/-11.35|0.1/-11.21|0.13/-10.61|-0.45/-10.52|-0.93/-10.32|-1.45/-9.57|-1.42/-9.14|-1.11/-8.91|-1.31/-8.2|-1.11/-7.62|-0.59/-7.42|-0.59/-6.7|-0.19/-6.36|0.39/-5.78|0.82/-6.39|1.45/-6.65|1.56/-7.05|1.48/-7.36|2.02/-7.79|2.08/-8.08|2.97/-7.48|3.46/-6.67|3.4/-6.27|5.44/-6.27|6.18/-4.98|6.18/-4.49|10.78/-4.46|11.03/-4.09|10.92/-3.63|12.15/-3.6|12.56/-2.89|13.01/-3.2|13.24/-3.6|21.05/-3.58|20.99/-4.12|21.83/-5.5|22.23/-4.78|22.83/-4.69|23.32/-4.92|23.52/-5.41|24.12/-5.35|24.32/-5.87|24.41/-6.42|24.95/-6.9|25.04/-7.45|24.87/-7.97|24.9/-8.43|24.98/-9.03|24.64/-9.37|24.47/-9.8|23.86/-9.86|23.49/-10.15|23.29/-11.32|23.92/-11.52</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly04" title="" target="_blank" url="https://jpimagestudio.github.io/PacificOceanPark/">
+      <polyhotspot url="https://jpimagestudio.github.io/PacificOceanPark/" description="" id="Poly04" target="_blank" title="">
         <polystring>-40.8/-5.97|-41.72/-5.91|-42.67/-7.23|-43.01/-6.2|-44.05/-5.71|-44.59/-5.79|-43.59/-7.66|-44.74/-7.23|-45.57/-7.75|-45.88/-8.29|-49.56/-10.5|-50.31/-11.45|-50.71/-12.22|-51.02/-13.63|-51.11/-14.44|-50.76/-15.15|-51.14/-18.28|-52.95/-18.45|-53.98/-19.09|-54.7/-19.55|-55.5/-19.34|-54.98/-20.75|-55.9/-20.52|-56.71/-21.27|-55.96/-21.61|-55.42/-21.76|-55.76/-22.1|-55.82/-23.05|-54.93/-22.65|-54.44/-22.19|-54.5/-25.17|-53.12/-27.67|-50.71/-29.33|-51.35/-29.99|-51.68/-30.92|-51.72/-33.98|-51.28/-34.75|-50.65/-35.48|-49.62/-35.91|-33.61/-35.91|-32.84/-35.65|-32.04/-34.98|-31.64/-33.82|-31.61/-31.15|-32.34/-29.69|-33.44/-28.92|-36.4/-28.96|-38.53/-28.92|-32.57/-27.19|-31.71/-26.43|-32.64/-26.23|-32.97/-23.2|-32.44/-24.03|-31.71/-24.43|-31.47/-23.5|-31.97/-22.96|-30.81/-22.8|-31.14/-22.16|-31.71/-21.96|-32.61/-22.13|-32.01/-21.63|-31.84/-20.83|-32.64/-20.93|-33.17/-21.53|-33.27/-18.84|-32.97/-19.3|-32.24/-19.73|-31.81/-19.13|-32.44/-18.14|-31.44/-18.24|-31.08/-17.8|-31.84/-17.17|-32.67/-17.37|-32.24/-16.14|-32.94/-16.04|-33.54/-16.74|-34.2/-16.14|-34.97/-16.11|-34.34/-17.44|-35.4/-17.3|-35.9/-17.9|-37.07/-17.34|-36.9/-16.57|-37.4/-16.01|-36.27/-15.94|-36.47/-15.21|-37.33/-14.97|-37.23/-13.87|-37.97/-13.97|-38.37/-14.47|-39.03/-14.01|-39.5/-13.97|-40.86/-10.91|-40.53/-10.05|-41.16/-8.88|-40.06/-8.75|-39.4/-8.45|-40.5/-7.45|-41.89/-7.62</polystring>
       </polyhotspot>
     </hotspots>
-    <media/>
-    <transition blendcolor="0x000000" zoomout="0" delay="none" zoomafteroutfov="40" type="crossdissolve" zoomin="0" zoomafterinfov="140" enabled="1" zoomfov="40" zoomspeed="2" zoomoutpause="1" blendtime="1" softedge="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" lockedwheel="0" sensitivity="8" lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" contextfullscreen="1" hideabout="0" lockedmouse="0" invertwheel="0" contextvr="1"/>
+    <media>
+      <sound tiltsize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" id="_background" loop="0" startmutedmobile="0" level="0.900" nodechangekeep="1" pan="-1.000" pansize="10.000" mode="0">
+        <source url="media/Coastal Wave Sanctuary.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" zoomafteroutfov="40" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomfov="40" softedge="0" zoomafterinfov="140" zoomspeed="2" enabled="1" delay="none"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" contextprojections="0" invertcontrol="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node7">
-    <input height="1472" overlap="1" width="2896" leveltilesize="510" cylinder="1" levelingpitch="0" flat="1" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingroll="0">
-      <level height="1472" preload="0" predecode="0" width="2896"/>
-      <level height="736" preload="0" predecode="0" width="1448"/>
-      <level height="368" preload="0" predecode="0" width="724"/>
-      <level height="184" preload="1" predecode="1" width="362"/>
+    <input cylinder="1" leveltilesize="510" flat="1" width="2896" overlap="1" levelingroll="0" height="1472" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
+      <level height="1472" predecode="0" preload="0" width="2896"/>
+      <level height="736" predecode="0" preload="0" width="1448"/>
+      <level height="368" predecode="0" preload="0" width="724"/>
+      <level height="184" predecode="1" preload="1" width="362"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="500" tilt="0" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fov="140" scaletofit="0" tilt="90" fovstereographic="330" fovfisheye="360" pan="360"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" pan="0" fov="500"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" scaletofit="0" fovstereographic="330" tilt="90" pan="360" fov="140"/>
     </view>
-    <userdata heading="0" description="" latitude="" source="" customnodeid="" copyright="" nodeid="node7" datetime="" author="" title="吉安鄉景點" info="" tags="" comment="" longitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderalpha="1" border="1" width="180" textalpha="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" borderradius="2" wordwrap="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="2" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <polyhotspot description="" id="Poly02" title="知卡宣公園" target="_blank" url="https://jpimagestudio.github.io/Cikasuan_Park/">
+    <userdata author="" latitude="" tags="" copyright="" info="" title="吉安鄉景點" longitude="" comment="" nodeid="node7" heading="0" description="" datetime="" customnodeid="" source=""/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label backgroundalpha="1" wordwrap="1" border="1" bordercolor="0x000000" width="180" borderalpha="1" background="1" textcolor="0x000000" borderradius="2" height="20" backgroundcolor="0xffffff" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="2" handcursor="1"/>
+      <polyhotspot url="https://jpimagestudio.github.io/Cikasuan_Park/" description="" id="Poly02" target="_blank" title="知卡宣公園">
         <polystring>20.22/-5.48|19.82/-4.18|19.01/-3.29|18.36/-2.72|19.41/-2.4|19.33/-1.67|19.25/-1.1|19.01/-0.53|18.36/-0.2|17.87/0.45|17.3/0.77|16.32/0.93|16.24/1.91|16.49/2.4|14.94/6.3|13.64/2.8|12.75/1.5|12.02/1.83|11.13/2.07|10.72/1.99|9.74/1.83|9.09/2.8|8.2/5.48|6.49/9.06|5.68/8.73|5.44/5.97|5.36/3.29|4.38/2.56|3.08/5.16|-0.82/3.53|-2.28/6.54|-2.85/6.21|-3.01/4.1|-3.58/3.53|-3.01/1.18|-5.29/-0.28|-6.34/-1.75|-7.56/-4.1|-7.8/-5.81|-6.5/-6.05|-6.26/-7.68|-5.45/-8.41|-4.47/-8.98|16.16/-8.81|17.14/-8.25|17.87/-7.27|17.95/-6.13|17.95/-5.65</polystring>
       </polyhotspot>
     </hotspots>
-    <media/>
-    <transition blendcolor="0x000000" zoomout="0" delay="none" zoomafteroutfov="40" type="crossdissolve" zoomin="0" zoomafterinfov="140" enabled="1" zoomfov="40" zoomspeed="2" zoomoutpause="1" blendtime="1" softedge="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" lockedwheel="0" sensitivity="8" lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" contextfullscreen="1" hideabout="0" lockedmouse="0" invertwheel="0" contextvr="1"/>
+    <media>
+      <sound tiltsize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" id="_background" loop="0" startmutedmobile="0" level="0.900" nodechangekeep="1" pan="-1.000" pansize="10.000" mode="0">
+        <source url="media/Coastal Wave Sanctuary.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" zoomafteroutfov="40" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomfov="40" softedge="0" zoomafterinfov="140" zoomspeed="2" enabled="1" delay="none"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" contextprojections="0" invertcontrol="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node6">
-    <input height="2954" overlap="1" width="5760" leveltilesize="510" cylinder="1" levelingpitch="0" flat="1" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingroll="0">
-      <level height="2954" preload="0" predecode="0" width="5760"/>
-      <level height="1477" preload="0" predecode="0" width="2880"/>
-      <level height="738" preload="0" predecode="0" width="1440"/>
-      <level height="369" preload="0" predecode="0" width="720"/>
-      <level height="184" preload="1" predecode="1" width="360"/>
+    <input cylinder="1" leveltilesize="510" flat="1" width="5760" overlap="1" levelingroll="0" height="2954" levelbiashidpi="1.000" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
+      <level height="2954" predecode="0" preload="0" width="5760"/>
+      <level height="1477" predecode="0" preload="0" width="2880"/>
+      <level height="738" predecode="0" preload="0" width="1440"/>
+      <level height="369" predecode="0" preload="0" width="720"/>
+      <level height="184" predecode="1" preload="1" width="360"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start fov="800" tilt="0" pan="0"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max fov="140" scaletofit="0" tilt="90" fovstereographic="330" fovfisheye="360" pan="360"/>
+    <view fovmode="2" pannorth="0">
+      <start tilt="0" pan="0" fov="800"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovfisheye="360" scaletofit="0" fovstereographic="330" tilt="90" pan="360" fov="140"/>
     </view>
-    <userdata heading="0" description="" latitude="" source="" customnodeid="" copyright="" nodeid="node6" datetime="" author="" title="壽豐鄉景點" info="" tags="" comment="" longitude=""/>
-    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
-      <label height="20" borderalpha="1" border="1" width="180" textalpha="1" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" borderradius="2" wordwrap="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="2" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <polyhotspot description="" id="Poly02" title="" target="_blank" url="https://jpimagestudio.github.io/Farglory-VT-JP/">
+    <userdata author="" latitude="" tags="" copyright="" info="" title="壽豐鄉景點" longitude="" comment="" nodeid="node6" heading="0" description="" datetime="" customnodeid="" source=""/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label backgroundalpha="1" wordwrap="1" border="1" bordercolor="0x000000" width="180" borderalpha="1" background="1" textcolor="0x000000" borderradius="2" height="20" backgroundcolor="0xffffff" enabled="1" textalpha="1"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="2" handcursor="1"/>
+      <polyhotspot url="https://jpimagestudio.github.io/Farglory-VT-JP/" description="" id="Poly02" target="_blank" title="">
         <polystring>-37.87/10.06|-37.93/11.33|-38.03/12.14|-38.32/13.21|-38.35/13.87|-38.58/14.87|-39.07/15.66|-39.95/16.76|-40.31/17.22|-42.29/18.29|-44.96/19.14|-46.62/19.46|-48.12/19.63|-49.29/19.63|-50.4/19.53|-52.15/19.56|-53.13/19.56|-55.18/19.11|-56.97/18.65|-58.34/18.23|-59.58/17.28|-60.03/16.63|-60.23/16.24|-60.97/15.75|-60.94/15.43|-61.27/14.81|-61.33/14.22|-61.82/13.18|-61.79/12.47|-61.79/11.85|-62.24/10.74|-62.28/9.34|-62.21/8.69|-62.05/7.75|-61.98/7.42|-61.72/6.57|-61.85/6.25|-61.3/4.98|-61.11/4.33|-60.62/3.81|-59.61/3.35|-58.99/3.09|-58.21/2.83|-59.84/3.09|-60.26/2.99|-60.58/2.73|-61.24/2.6|-61.79/1.92|-62.05/1.17|-61.66/0.85|-61.63/-0.49|-61.4/-0.72|-60.97/-0.75|-38.48/-0.65|-38.16/-0.13|-38.13/0.46|-38.52/0.72|-38.13/1.07|-38.32/1.63|-38.78/2.05|-38.22/2.54|-38.61/2.86|-39.26/2.99|-41.97/3.06|-40.5/3.74|-39.3/4.72|-38.52/5.63|-37.93/7.52|-37.9/9.02</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly03" title="" target="_blank" url="https://jpimagestudio.github.io/Baibo_river/">
+      <polyhotspot url="https://jpimagestudio.github.io/Baibo_river/" description="" id="Poly03" target="_blank" title="">
         <polystring>77.56/-6.42|55.1/-6.37|55.1/-5.59|55.1/-3.23|57.66/-2.93|56.23/-2.2|54.9/-0.82|53.92/1.49|53.63/4.59|53.77/6.55|54.71/8.32|55.74/9.06|56.13/9.89|56.92/11.47|57.56/12.4|58.59/12.89|59.67/12.84|59.97/12.45|61/13.48|62.13/14.27|63.6/14.41|64.34/13.92|66.5/12.35|68.02/11.56|69.25/12.1|70.83/12.15|71.61/11.47|72.79/10.63|74.22/10.48|75/10.58|76.43/10.09|77.41/9.25|78.69/7.83|79.57/5.62|80.16/3.16|79.77/0.21|78.15/-1.41|77.51/-2.05</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly04" title="" target="_blank" url="https://jpimagestudio.github.io/Gaosingye_temple/">
+      <polyhotspot url="https://jpimagestudio.github.io/Gaosingye_temple/" description="" id="Poly04" target="_blank" title="">
         <polystring>-52.61/38.89|-54.77/39.43|-56.59/39.43|-58.36/39.39|-58.02/40.56|-58.66/41.35|-59.39/41.11|-59.59/40.47|-59.2/39.83|-59.39/39.39|-60.33/39.09|-61.01/38.55|-61.55/37.27|-62.24/36.58|-62.34/35.9|-61.01/35.11|-63.03/34.52|-63.82/33.78|-63.86/30.84|-51.23/30.84|-50.06/32.8|-50.65/33.64|-51.38/34.27|-52.46/35.36|-52.32/37.37|-52.32/38.4</polystring>
       </polyhotspot>
     </hotspots>
-    <media/>
-    <transition blendcolor="0x000000" zoomout="0" delay="none" zoomafteroutfov="40" type="crossdissolve" zoomin="0" zoomafterinfov="140" enabled="1" zoomfov="40" zoomspeed="2" zoomoutpause="1" blendtime="1" softedge="0"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" lockedwheel="0" sensitivity="8" lockedkeyboardzoom="0" rubberband="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" zoomcentercursor="1" contextprojections="0" contextfullscreen="1" hideabout="0" lockedmouse="0" invertwheel="0" contextvr="1"/>
+    <media>
+      <sound tiltsize="10.000" tilt="-1.000" field="90.000" ambientlevel="0.000" id="_background" loop="0" startmutedmobile="0" level="0.900" nodechangekeep="1" pan="-1.000" pansize="10.000" mode="0">
+        <source url="media/Coastal Wave Sanctuary.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition type="crossdissolve" zoomafteroutfov="40" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomfov="40" softedge="0" zoomafterinfov="140" zoomspeed="2" enabled="1" delay="none"/>
+    <animation clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" contextprojections="0" invertcontrol="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" contextfullscreen="1" contextvr="1" simulatemass="1" invertwheel="0" hideabout="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" description="" author="" title="" tags="" comment=""/>
+    <userdata comment="" description="" author="" tags="" copyright="" title=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
